@@ -1,0 +1,26 @@
+{
+  "name": "node-mongoose-scope",
+  "version": "0.1.0",
+  "description": "A mongoose library that sets a list of query fields in a scope",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nosthertus/node-mongoose-scope.git"
+  },
+  "keywords": [
+    "mongoose",
+    "plugin",
+    "query",
+    "scope",
+    "fields"
+  ],
+  "author": "Nosthertus <nosthertus@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nosthertus/node-mongoose-scope/issues"
+  },
+  "homepage": "https://github.com/Nosthertus/node-mongoose-scope#readme"
+}
