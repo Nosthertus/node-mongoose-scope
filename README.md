@@ -1,12 +1,12 @@
 # node-mongoose-scope
 A mongoose library that sets a list of query fields in a scope
 
-##Installataion
+## Installataion
 ```SH
 $ npm install mongoose-scope
 ```
 
-##Usage
+## Usage
 ```Javascript
 var mongoose = require("mongoose");
 var Schema   = mongoose.Schema;
@@ -32,9 +32,9 @@ var model = mongoose.model("User" User);
 model.findByScope("bash", {name: "random"});
 ```
 
-##Documentation
+## Documentation
 **.findByScope([ScopeName], [Criteria] optional) => Query**
 executes a normal `find` with the selected fields defined in the scope, it takes a criteria object as optional second parameter
 
-##License
+## License
 MIT
