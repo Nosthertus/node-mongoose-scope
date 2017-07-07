@@ -1,3 +1,5 @@
+var _ = require("utils-pkg");
+
 module.exports = function(schema, options){
 	/**
 	 * Compiles a object map of the properties that matches with the scope list

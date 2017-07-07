@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/Nosthertus/node-mongoose-scope/issues"
   },
-  "homepage": "https://github.com/Nosthertus/node-mongoose-scope#readme"
+  "homepage": "https://github.com/Nosthertus/node-mongoose-scope#readme",
+  "dependencies": {
+    "utils-pkg": "^1.1.0"
+  }
 }
