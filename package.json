@@ -1,6 +1,6 @@
 {
   "name": "mongoose-scope",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A mongoose library that sets a list of query fields in a scope",
   "main": "index.js",
   "scripts": {
