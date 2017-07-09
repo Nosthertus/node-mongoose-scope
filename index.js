@@ -28,9 +28,13 @@ module.exports = function(schema, options){
 	 * 
 	 * @param  {String} scope    The name of the scope to apply in the fields
 	 * @param  {Object} criteria The criteria to set in the search
+	 * @param  {Object} options  The options to pass in the search
 	 * @return {Query}           The query result of the search
 	 */
-	schema.static("findByScope", function(scope, criteria = {}){
-		return this.find(criteria, getScopedFields(scope));
+	schema.static("findByScope", function(scope, criteria = {}, options = {}){
+		// Merge scope value into the search options
+		options.$scope = scope;
+
+		return this.find(criteria, getScopedFields(scope), options);
 	});
 };

@@ -33,9 +33,11 @@ model.findByScope("bash", {name: "random"});
 ```
 
 ## Documentation
-**.findByScope([ScopeName], [Criteria] optional) => Query**
+**.findByScope([ScopeName], [Criteria] optional, [Options] optional) => Query**
 
-executes a normal `find` with the selected fields defined in the scope, it takes a criteria object as optional second parameter
+executes a normal `find` with the selected fields defined in the scope, it takes a criteria object as optional second parameter,
+
+***NOTE:*** this passes an option value called `$scope` which contains the name of the used scope in the search
 
 ## License
 MIT
